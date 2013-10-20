@@ -1,0 +1,26 @@
+Bootstrap starter templates KIT v.2.0. free version
+Built with Bootstrap 3.0. stable version.
+
+LICENSE
+
+The SimpleLicense gives you the right to use any item included in Bootstraptor KIT free version
+ in a personal non commercial project only for yourself, the item cannot be resold or redistributed on its own, 
+or used in a product offered for sale where the item contributes to the core value of the product being sold.
+
+Personal or commercial use
+- All items may only be used in a single non-commercial project.
+- For yourself 
+- On its own, or as part of a new work
+
+Cannot be sublicensed, resold, shared, transferred, or otherwise redistributed on its own (even for free)
+Cannot be used in a product offered for sale where the item contributes to the core value of the product being sold.
+
+Do not delete the references to us as a developer of the codes do not delete the license file, 
+not to spread the line items and the entire archive to free access!
+
+
+If you are in doubt about the use of the license, you can ask questions here:
+https://groups.google.com/forum/#!forum/bootstraptor
+ 
+For commercial use, and more templates and themes for the Bootstrap version 3.0 
+buy a commercial version on http://www.bootstraptor.com
