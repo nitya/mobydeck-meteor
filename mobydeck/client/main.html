@@ -1,421 +1,115 @@
 <!-- saved from url http://www.bootstraptor.com ##########################################################################
 Don't remove this attribution!
-This template build on Bootstrap 3 Developer  Kit v.3.0. by @Bootstraptor
-Built with Bootstrap 3.0. RC 1 version/ part of Bootstraptor KIT
-Read usage license on for this template on http://www.bootstraptor.com 
+This template build on DevKit
+read  license on http://www.bootstraptor.com
 ##########################################################################
 -->
 
-<!-- the template has been adapted for use with meteor -->
+<!--
+##########################################################################
+ Note:
+ The templates (from Bootstraptor release) have been modified slightly to
+ make them 'compatible' with Meteor bundling needs. In particular, all
+ <head> and <body> elements are provided here, but inner <body> contents
+ are extracted into named handlebars templates to support route-based use.
+ Template contents themselves were otherwise unchanged.
+
+ Bootstraptor was notified of requirement and gave permission to do
+ this on an exception basis.
+##########################################################################
+-->
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title> Moby Deck: Adventures in Math</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Crowdsourced Adventures in Math">
-    <meta name="author" content="Nitya Narasimhan (original template from Bootstraptor)">
+    <meta name="description" content="Adventurous Math For The Playgground Crowd">
+    <meta name="author" content="Nitya Narasimhan & Maria Droujkova (with theme by Bootstraptor)">
+    <title> Moby Deck: Adventures in Math</title>
 
-    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="/images/favicon.png" rel="shortcut icon" >
+
+    <!-- Stylesheets -->
+    <link href="theme.css" rel="stylesheet">
+    <link href="welcome.css" rel="stylesheet">
+
+    <!-- FontAwesome icons -->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
 
     <!--[if lt IE 7]>
-        <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css" rel="stylesheet">
     <![endif]-->
-
     <!-- Fav and touch icons -->
 
     <!-- Le styles -->
     <!-- GOOGLE FONT-->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700italic,700,500&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <!-- /GOOGLE FONT-->
-    <!-- SOME BOOTSTRAP OVERRIDES STYLES -->
-    <style type="text/css">
-          body {
-            padding-top: 50px;
-            padding-bottom:40px;
-            max-height:100%;
-          }
 
-        .jumbotron{
-            background:#358cce;
-            color:#fff;
-          }
-
-
-
-        .thumbnail{
-            position:relative;
-          }
-          .plus{
-            position:absolute;
-            top:20px;
-            left:20px;
-
-            text-align:center;
-             /* IE 8 */
-              -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-
-              /* IE 5-7 */
-              filter: alpha(opacity=0);
-
-              /* Netscape */
-              -moz-opacity: 0;
-
-              /* Safari 1.x */
-              -khtml-opacity: 0;
-
-              /* Good browsers */
-              opacity: 0;
-          }
-
-          .thumbnail:hover .plus{
-
-             /* IE 8 */
-              -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-
-              /* IE 5-7 */
-              filter: alpha(opacity=100);
-
-              /* Netscape */
-              -moz-opacity: 1;
-
-              /* Safari 1.x */
-              -khtml-opacity: 1;
-
-              /* Good browsers */
-              opacity: 1;
-          }
-          .box{
-            margin-bottom:30px;
-          }
-
-          /* isotop items animation */
-          .isotope .isotope-item {
-            -moz-transition-property: -moz-transform, opacity;
-            -ms-transition-property: -moz-transform, opacity;
-            -o-transition-property: top, left, opacity;
-            transition-property: transform, opacity;
-            -webkit-transition-property: -webkit-transform, opacity;
-            }
-            .isotope .isotope-item {
-            -moz-transition-property: -moz-transform, opacity;
-            -ms-transition-property: -moz-transform, opacity;
-            -o-transition-property: top, left, opacity;
-            transition-property: transform, opacity;
-            -webkit-transition-property: -webkit-transform, opacity;
-            }
-            .isotope-item {
-            -moz-transition-duration: 0.8s;
-            -ms-transition-duration: 0.8s;
-            -o-transition-duration: 0.8s;
-            transition-duration: 0.8s;
-            -webkit-transition-duration: 0.8s;
-            z-index: 2;
-            }
-
-          @media (max-width: 767px){
-            .thumbnail img{
-                min-width:100%;
-                height:auto;
-            }
-          }
-
-
-
-
-
-        </style>
-
-
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
 
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"
-                  type="text/javascript">
-          </script>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
     <![endif]-->
     <!-- Le fav and touch icons -->
-
-    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="shortcut icon" href="/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144"
-          href="assets/ico/apple-touch-icon-144-precomposed.png">
+          href="/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114"
-          href="assets/ico/apple-touch-icon-114-precomposed.png">
+          href="/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72"
-          href="assets/ico/apple-touch-icon-72-precomposed.png">
+          href="/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed"
-          href="assets/ico/apple-touch-icon-57-precomposed.png">
+          href="/ico/apple-touch-icon-57-precomposed.png">
 </head>
 
 <body>
+    <div id="mainContainer">
+        {{> mainNavHeader }}
 
-    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
-        <div class="container">
-	        <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-		  <span class="sr-only">Toggle navigation</span>
-		  <span class="icon-bar"></span>
-		  <span class="icon-bar"></span>
-		  <span class="icon-bar"></span>
-		</button>
-		<a class="navbar-brand" href="#">Moby Deck</a>
-	  </div>
+        {{> mainBanner }}
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                   <li><a href="#">Symmetry</a></li>
-                  <li><a href="#">Number</a></li>
-                    <li><a href="#">Function</a></li>
-                    <li><a href="#">Grid</a></li>
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Explore <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="#">Action</a></li>
-                      <li><a href="#">Another action</a></li>
-                      <li><a href="#">Something else here</a></li>
-                      <li><a href="#">Separated link</a></li>
-                      <li><a href="#">One more separated link</a></li>
-                    </ul>
-                  </li>
-                </ul>
-                <form class="navbar-form navbar-right visible-lg" role="search">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
-                  </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-            </div><!-- /.navbar-collapse -->
-	    </div>
-    </nav>
+        <div id="mainNavContents">
+            {{> mainNavContents }}
+        </div>
 
-<!-- Main hero unit for a primary marketing message or call to action
-    <div class="jumbotron">
-    <div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<h1>New & Recommended</h1>
-				</div>
-			</div>
+        <hr>
+        <div class="col-sm-12 col-lg-12">
+            <p>© 2013 Built with <a class="" href="http://www.bootstraptor.com">www.bootstraptor.com</a></p>
+        </div>
     </div>
-    -->
-</div>
 
-<!-- CONTENT CONTAINER-->
-    <div class="container">
 
-<!--###################-->
-<!-- START PORTFOLIO -->
-<!--###################-->
-<div id="container-folio" style="position:relative">
-		
-<!-- portfolio item -->
-    <div class="box col-xs-12 col-md-4 col-sm-6 col-lg-3">
-		<!-- START WRAPPER IMG THUMBNAIL-->
-		<div class="thumbnail">
-				<!-- NAV LINKS -->
-				<div class="plus">
-						<a href="#" title="read more" class="btn btn-medium btn-default"><i class="fa-icon-heart"></i> Like</a>
-						<a href="#" title="pin it" class="btn btn-medium btn-danger">Pin it</a>
-				</div>
-				<!-- /NAV LINKS -->
-			<!-- / IMAGE-->
-			<img class="img-responsive" src="/images/robot.png" alt="">
-			<!-- / IMAGE-->
-			<div class="caption">
-				<!-- TITLE-->
-				<h3 class="single-title"><a href="#" title="">Walk Around In Circles</a></h3>
-				<!-- END TITLE-->
-		<!-- META-->
-		<span class="meta">
-			<i class="fa-icon-calendar"></i> September 16, 2013
-		</span>
-		<!-- END META-->
-		<!-- PARAGRAPH -->
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet enim eu nulla scelerisque tincidunt. 
-			</p>
-		<!-- /PARAGRAPH -->
-		
-		</div><!-- /caption-->
-	</div> 
-</div>
-<!-- END portfolio item -->
-	  
-<!-- portfolio item -->
-    <div class="box col-xs-12 col-md-4 col-sm-6 col-lg-3">
-		<!-- START WRAPPER IMG THUMBNAIL-->
-		<div class="thumbnail">
-				<!-- NAV LINKS -->
-				<div class="plus">
-						<a href="#" title="read more" class="btn btn-medium btn-default"><i class="fa-icon-heart"></i> Like</a>
-						<a href="#" title="pin it" class="btn btn-medium btn-danger">Pin it</a>
-				</div>
-				<!-- /NAV LINKS -->
-			<!-- / IMAGE-->
-			<img class="img-responsive" src="/images/robot.png" alt="">
-			<!-- / IMAGE-->
-			<div class="caption">
-				<!-- TITLE-->
-				<h3 class="single-title"><a href="#" title="">Function Machine</a></h3>
-				<!-- END TITLE-->
-		<!-- META-->
-		<span class="meta">
-			<i class="fa-icon-calendar"></i> September 16, 2013
-		</span>
-		<!-- END META-->
-		<!-- PARAGRAPH -->
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet enim eu nulla scelerisque tincidunt. 
-			</p>
-		<!-- /PARAGRAPH -->
-		
-		</div><!-- /caption-->
-	</div> 
-</div>
-<!-- END portfolio item -->
-
-<!-- portfolio item -->
-    <div class="box col-xs-12 col-md-4 col-sm-6 col-lg-3">
-		<!-- START WRAPPER IMG THUMBNAIL-->
-		<div class="thumbnail">
-				<!-- NAV LINKS -->
-				<div class="plus">
-						<a href="#" title="read more" class="btn btn-medium btn-default"><i class="fa-icon-heart"></i> Like</a>
-						<a href="#" title="pin it" class="btn btn-medium btn-danger">Pin it</a>
-				</div>
-				<!-- /NAV LINKS -->
-			<!-- / IMAGE-->
-			<img class="img-responsive" src="/images/robot.png" alt="">
-			<!-- / IMAGE-->
-			<div class="caption">
-				<!-- TITLE-->
-				<h3 class="single-title"><a href="#" title="">New Functions From Old</a></h3>
-				<!-- END TITLE-->
-		<!-- META-->
-		<span class="meta">
-			<i class="fa-icon-calendar"></i> September 16, 2013
-		</span>
-		<!-- END META-->
-		<!-- PARAGRAPH -->
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet enim eu nulla scelerisque tincidunt. 
-			</p>
-		<!-- /PARAGRAPH -->
-		
-		</div><!-- /caption-->
-	</div> 
-</div>
-<!-- END portfolio item -->
-	
-<!-- portfolio item -->
-    <div class="box col-xs-12 col-md-4 col-sm-6 col-lg-3">
-		<!-- START WRAPPER IMG THUMBNAIL-->
-		<div class="thumbnail">
-				<!-- NAV LINKS -->
-				<div class="plus">
-						<a href="#" title="read more" class="btn btn-medium btn-default"><i class="fa-icon-heart"></i> Like</a>
-						<a href="#" title="pin it" class="btn btn-medium btn-danger">Pin it</a>
-				</div>
-				<!-- /NAV LINKS -->
-			<!-- / IMAGE-->
-			<img class="img-responsive" src="/images/robot.png" alt="">
-			<!-- / IMAGE-->
-			<div class="caption">
-				<!-- TITLE-->
-				<h3 class="single-title"><a href="#" title="">Silly Robot</a></h3>
-				<!-- END TITLE-->
-		<!-- META-->
-		<span class="meta">
-			<i class="fa-icon-calendar"></i> September 16, 2013
-		</span>
-		<!-- END META-->
-		<!-- PARAGRAPH -->
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet enim eu nulla scelerisque tincidunt. 
-			</p>
-		<!-- /PARAGRAPH -->
-		
-		</div><!-- /caption-->
-	</div> 
-</div>
-<!-- END portfolio item -->
-
-</div><!--/ROW-->
-<!--###################-->
-<!-- END PORTFOLIO -->
-<!--###################-->
-
-<hr>
-<div class="row">
-	    <!-- PAGINATION-->
-	  <div class="col-12 col-lg-12 text-center">
-
-        <ul class="pagination text-center">
-          <li class="disabled"><a href="#">Previous</a></li>
-          <li class="active" id="page_nav"><a href="#">1</a></li>
-          <li id="page_nav1"><a href="#">2</a></li>
-          <li id="page_nav2"><a href="#">3</a></li>
-          <li id="page_nav3"><a href="#">4</a></li>
-          <li id="page_nav4"><a href="#">5</a></li>
-          <li id="page_nav5"><a href="#">Next</a></li>
-        </ul>
-      </div>
-	  <!-- END PAGINATION-->
-	  </div>
-<hr>
-
-<footer>
-    <p><a href="http://www.bootstraptor.com" title=""> Built with ©Bootstraptor 2013</a></p>
-</footer>
-
-</div> <!-- /container -->
-
-<!-- Le javascript
+<!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="assets/js/jquery.js" type="text/javascript"></script>
-<!-- Latest compiled and minified JavaScript -->
-<script src="assets/js/bootstrap.min.js"></script>
-<!-- Isotope init script -->
-<script type="text/javascript" src="assets/js/jquery.waitforimages.js"></script> 
-<script type="text/javascript" src="assets/js/jquery.isotope.min.js"></script>
-<!-- Isotope init script -->
-<script>
-		jQuery.noConflict()(function($){
-			var $container = $('#container-folio');
-					
-			if($container.length) {
-				$container.waitForImages(function() {
-					$(this).slideDown();
-					// initialize isotope
-					$container.isotope({
-					
-					  itemSelector : '.box',
-					  
-					  resizable: false, // disable normal resizing
-					 masonry: { columnWidth: $container.width() / 12 }
-					});
-					 
-						// update columnWidth on window resize
-						$(window).smartresize(function(){
-		
-							$(window).smartresize(function(){
-				  $container.isotope({
-					// update columnWidth to a percentage of container width
-					masonry: { columnWidth: $container.width() / 12 }
-				  }); 
-				  
-				  });
+<script type="text/javascript"
+        src="/js/jquery.js"></script>
 
-		});
-					
-					
-					
-				},null,true);
-				
-			}});
+<script type="text/javascript"
+        src="/js/bootstrap.min.js"></script>
+<script type="text/javascript"
+        src="/js/bootstrap.collapse.js"></script>
+<script type="text/javascript"
+        src="/js/bootstrap.transition.js"></script>
 
-</script>
+<script type="text/javascript"
+        src="/js/jquery.waitforimages.js"></script>
+<script type="text/javascript"
+        src="/js/jquery.isotope.min.js"></script>
+
+<!-- Isotope init script -->
+<!-- moved to main.js -->
 <!-- / Isotope init script -->
+
+
+<!-- Twitter widget script -->
+
+<!-- Twitter widget script -->
 
 </body>

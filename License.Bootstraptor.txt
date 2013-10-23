@@ -1,26 +1,41 @@
-Bootstrap starter templates KIT v.2.0. free version
-Built with Bootstrap 3.0. stable version.
-
-LICENSE
-
-The SimpleLicense gives you the right to use any item included in Bootstraptor KIT free version
- in a personal non commercial project only for yourself, the item cannot be resold or redistributed on its own, 
-or used in a product offered for sale where the item contributes to the core value of the product being sold.
-
-Personal or commercial use
-- All items may only be used in a single non-commercial project.
-- For yourself 
-- On its own, or as part of a new work
-
-Cannot be sublicensed, resold, shared, transferred, or otherwise redistributed on its own (even for free)
-Cannot be used in a product offered for sale where the item contributes to the core value of the product being sold.
-
-Do not delete the references to us as a developer of the codes do not delete the license file, 
-not to spread the line items and the entire archive to free access!
+Bootstrap templates starter PRO KIT v.2.0.
 
 
-If you are in doubt about the use of the license, you can ask questions here:
-https://groups.google.com/forum/#!forum/bootstraptor
- 
-For commercial use, and more templates and themes for the Bootstrap version 3.0 
-buy a commercial version on http://www.bootstraptor.com
+License.
+
+This license must be purchased if you intend to license, sublicense, redistribute, or resell the final product.
+ Your use of the item may extend to multiple installations. You may use the item in work which you are creating 
+for your own purposes or for your clients. You may license, sublicense, redistribute, or resell the item 
+in the following circumstances: the item is incorporated into a larger work you have created; 
+or if you modify the item and resell the end product. If the item contains licensed components, 
+those components must only be used within the item and you must not extract and use them on a stand-alone basis.
+ If the item was created using materials which are the subject of a GNU General Public License (GPL), 
+your use of the item is subject to the terms of the GPL in place of the foregoing conditions 
+(to the extent the GPL applies). This Agreement grants a non-exclusive, non-transferable license
+ to use the Software to design and develop software (Applications). 
+
+You are granted 1 license for you as 1 designated user to use the Software for the purpose of developing 
+Applications (Developer). You must purchase another separate license to the Software for each 
+and any additional Developer. For example, if your company has 10 developers using the Software, 
+you need to purchase 10 licenses. You are granted the right to use and to modify the source code 
+of the Software for use in Applications. You own any original work authored by you; 
+Bootstraptor continues to retain all copyright and other intellectual property rights in the Software. 
+You are not permitted to move, remove, edit, or obscure any copyright, trademark, attribution, 
+warning or disclaimer notices in the Software. You may use the Software only to create Applications 
+that are significantly different than and do not compete with the Software. You are granted the license 
+to distribute the Software as part of your Applications on a royalty-free basis. Users of your Applications 
+are permitted to use the Software or your modifications of the Software for development purposes. 
+
+Warranties and Remedies.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE 
+AND NONINFRINGEMENT. BOOTSTRAPTOR ENTIRE LIABILITY AND YOUR EXCLUSIVE REMEDY UNDER THIS AGREEMENT 
+SHALL BE RETURN OF THE PRICE PAID FOR THE SOFTWARE. 
+
+If the license is to provide a component of paid use for commercial purposes, 
+you will need to purchase licensed for under the appropriate software developer. 
+For example, to use the plugin Isotope for commercial purposes please read the terms of use 
+http://isotope.metafizzy.co/docs/license.html
+
+http://www.bootstraptor.com
